@@ -1,14 +1,10 @@
- // index.js
-
-// Simple echo function
+ // Cake Diaries main logic
 function echo(input) {
   return input;
 }
 
-// Function to greet cake lovers
-function greet(name) {
-  return `Welcome to Cake Diaries, ${name}! 🎂`;
+function listCakes() {
+  return ["Chocolate", "Vanilla", "Red Velvet", "Black Forest"];
 }
 
-// Export functions for testing
-module.exports = { echo, greet };
+module.exports = { echo, listCakes };
